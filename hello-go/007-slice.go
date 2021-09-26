@@ -25,4 +25,9 @@ func main() {
 	fmt.Println("切片")
 	s1 = append(s1, 2,3)
 	fmt.Println(s1)
+
+	ps1 := &s1;
+	x1 := (*ps1)[2]
+	fmt.Println(ps1)
+	fmt.Println(x1)
 }
